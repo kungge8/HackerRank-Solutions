@@ -2,6 +2,10 @@
 //  species are represented by the integers 1-5. Example input: [1,4,4,4,5,3]
 //output: integer representing the most sighted species, favoring species with lower ID #
 
+//solution: create reference array holding bird types (birds)
+//          create array of # of sightings of each bird type (count)
+//          return birds[i], i being the index of the highest integer held in count
+
 function migratoryBirds(n, ar) {
     // Complete this function
     const birds = [1,2,3,4,5];
